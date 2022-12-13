@@ -2,7 +2,7 @@
 #include <math.h>
 
 /**
- * main - returns a o and prints out text
+ * main - prints out text 
  * printf - is a gunction that prints out to the terminal
  * int - is data type
  */
