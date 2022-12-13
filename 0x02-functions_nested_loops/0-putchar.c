@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <math.h>
 
 /**main - is the entry point function
  * printf - is a gunction that prints out to the terminal
@@ -6,5 +7,5 @@
  */
 int main(void)
 {
-	print("_puchar\n");
+	print("_putchar\n");
 }
