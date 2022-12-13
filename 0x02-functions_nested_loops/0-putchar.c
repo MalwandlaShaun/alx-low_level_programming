@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include <math.h>
 
-/**main - is the entry point function
+/**
+ * main - returns a o and prints out text
  * printf - is a gunction that prints out to the terminal
  * int - is data type
  */
