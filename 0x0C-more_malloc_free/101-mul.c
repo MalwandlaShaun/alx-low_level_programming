@@ -19,7 +19,6 @@ int is_digit(char *s)
 		i++;
 	}
 	return (1);
-
 }
 
 /**
@@ -67,7 +66,6 @@ int main(int argc, char *argv[])
 
 	len1 = _strlen(s1);
 	len2 = _strlen(s2);
-
 	len = len1 + len2 + 1;
 	result = malloc(sizeof(int) * len);
 
@@ -92,11 +90,13 @@ int main(int argc, char *argv[])
 
 		if (carry > 0)
 			result[len1 + len2 + 1] += carry;
+
 	}
 	for (i = 0; i < len - 1; i++)
 	{
 		if (result[i])
 			a = 1;
+
 		if (a)
 			_putchar(result[i] + '0');
 	}
