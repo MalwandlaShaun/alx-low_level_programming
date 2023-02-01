@@ -1,8 +1,7 @@
 #include "lists.h"
 
 /**
- * format: db `Hello, Holberton\n`,0
- *p_listint - deletes the head node of a linked list
+ * pop_listint - deletes the head node of a linked list
  * @head: pointer to the first element in the linked list
  *
  * Return: the data inside the elements that was deleted,
@@ -15,6 +14,7 @@ int pop_listint(listint_t **head)
 
 	if (!head || !*head)
 		return (0);
+
 	num = (*head)->n;
 	temp = (*head)->next;
 	free(*head);
